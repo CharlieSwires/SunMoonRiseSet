@@ -81,7 +81,7 @@ public class AstroFrame extends JFrame {
         addRow(card, gc, "Longitude", longitudeField, 4);
         addRow(card, gc, "Observer height, metres", heightField, 5);
         addRow(card, gc, "Time zone", zoneField, 6);
-        addRow(card, gc, "Swiss ephemeris path", ephePathField, 7);
+//        addRow(card, gc, "Swiss ephemeris path", ephePathField, 7);
 
         useSwiss.setOpaque(false);
         useSwiss.setSelected(true);
