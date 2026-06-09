@@ -18,8 +18,8 @@ public class AstroFrame extends JFrame {
     private final JSpinner daySpinner = new JSpinner(new SpinnerNumberModel(LocalDate.now().getDayOfMonth(), 1, 31, 1));
     private final JSpinner monthSpinner = new JSpinner(new SpinnerNumberModel(LocalDate.now().getMonthValue(), 1, 12, 1));
     private final JSpinner yearSpinner = new JSpinner(new SpinnerNumberModel(LocalDate.now().getYear(), 1, 9999, 1));
-    private final JTextField latitudeField = text("53.703700", 14);
-    private final JTextField longitudeField = text("-0.877700", 14);
+    private final JTextField latitudeField = text("70.706441", 14);
+    private final JTextField longitudeField = text("-0.8722104", 14);
     private final JTextField heightField = text("0.0", 10);
     private final JTextField zoneField = text(ZoneId.systemDefault().getId(), 18);
     private final JTextField ephePathField = text("", 22);
